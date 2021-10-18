@@ -1,0 +1,35 @@
+1. Opening notepad
+2. Opening terminal/cmd
+3. Start camera
+4. Playing Music on youtube
+5. What is my ip address
+6. Scraping wikipedia articles
+7. Opening social media and browsers
+8. Swithching current window
+9. Taking screenshot
+10. Telling temperature in a particular city
+11. Telling shortcut keys 
+12. Lookin for shopping deals on amazon\
+13. Texting/calling/video calling on whatsapp
+14. Creating an instant google meeting 
+15. Join for class on google meet
+16. Repeating what user says (helpful in checking pronounciation)
+17. Saving user notes
+18. Fetching top news headlines from BBC
+19. Telling system information
+20. Changing volume and brightness levels
+21. Opening system applicaitons (word/excel/power point/whatsapp)
+22. Returns current day name
+23. Sleeps for a specific amount of time
+24. Tells us the active covid cases in a particular  country 
+25. Rebooting system
+26. Remembering user queries
+27. Playing games with AI (tic tac toe)
+28. Telling a joke
+29. Checking for connection speed
+30. Waiting for user commands for a specific amount of time
+31. Reponding to general user questions
+32. Solving computational and mathematical problems with the help of certain APIs
+33. Answering History/Geography/Politics/General knowledge related questions
+
+
