@@ -1,0 +1,131 @@
+Ctrl+A	Select All
+Ctrl+B	Bold
+Ctrl+C	Copy
+Ctrl+D	Fill Down
+Ctrl+F	Find
+Ctrl+G	Goto
+Ctrl+H	Replace
+Ctrl+I	Italic
+Ctrl+K	Insert Hyperlink
+Ctrl+N	New Workbook
+Ctrl+O	Open
+Ctrl+P	Print
+Ctrl+R	Fill Right
+Ctrl+S	Save
+Ctrl+U	Underline
+Ctrl+V	Paste
+Ctrl W	Close
+Ctrl+X	Cut
+Ctrl+Y	Repeat
+Ctrl+Z	Undo
+F1	Help
+F2	Edit
+F3	Paste Name
+F4	Repeat last action
+F4	While typing a formula, switch between absolute/relative refs
+F5	Goto
+F6	Next Pane
+F7	Spell check
+F8	Extend mode
+F9	Recalculate all workbooks
+F10	Activate Menubar
+F11	New Chart
+F12	Save As
+Ctrl+:	Insert Current Time
+Ctrl+;	Insert Current Date
+Ctrl+"	Copy Value from Cell Above
+Ctrl+’	Copy Formula from Cell Above
+Shift	Hold down shift for additional functions in Excel’s menu
+Shift+F1	What’s This?
+Shift+F2	Edit cell comment
+Shift+F3	Paste function into formula
+Shift+F4	Find Next
+Shift+F5	Find
+Shift+F6	Previous Pane
+Shift+F8	Add to selection
+Shift+F9	Calculate active worksheet
+Ctrl+Alt+F9	Calculate all worksheets in all open workbooks, regardless of whether they have changed since the last calculation.
+Ctrl+Alt+Shift+F9	Rechecks dependent formulas and then calculates all cells in all open workbooks, including cells not marked as needing to be calculated.
+Shift+F10	Display shortcut menu
+Shift+F11	New worksheet
+Shift+F12	Save
+Ctrl+F3	Define name
+Ctrl+F4	Close
+Ctrl+F5	XL, Restore window size
+Ctrl+F6	Next workbook window
+Shift+Ctrl+F6	Previous workbook window
+Ctrl+F7	Move window
+Ctrl+F8	Resize window
+Ctrl+F9	Minimize workbook
+Ctrl+F10	Maximize or restore window
+Ctrl+F11	Inset 4.0 Macro sheet
+Ctrl+F12	File Open
+Alt+F1	Insert Chart
+Alt+F2	Save As
+Alt+F4	Exit
+Alt+F8	Macro dialog box
+Alt+F11	Visual Basic Editor
+Ctrl+Shift+F3	Create name by using names of row and column labels
+Ctrl+Shift+F6	Previous Window
+Ctrl+Shift+F12	Print
+Alt+Shift+F1	New worksheet
+Alt+Shift+F2	Save
+Alt+=	AutoSum
+Ctrl+`	Toggle Value/Formula display
+Ctrl+Shift+A	Insert argument names into formula
+Alt+Down arrow	Display AutoComplete list
+Alt+’	Format Style dialog box
+Ctrl+Shift+~	General format
+Ctrl+Shift+!	Comma format
+Ctrl+Shift+@	Time format
+Ctrl+Shift+#	Date format
+Ctrl+Shift+$	Currency format
+Ctrl+Shift+%	Percent format
+Ctrl+Shift+^	Exponential format
+Ctrl+Shift+&	Place outline border around selected cells
+Ctrl+Shift+_	Remove outline border
+Ctrl+Shift+*	Select the current region around the active cell. In a PivotTable report, select the entire PivotTable report.
+Ctrl++	Insert
+Ctrl+-	Delete
+Ctrl+1	Format cells dialog box
+Ctrl+2	Bold
+Ctrl+3	Italic
+Ctrl+4	Underline
+Ctrl+5	Strikethrough
+Ctrl+6	Show/Hide objects
+Ctrl+7	Show/Hide Standard toolbar
+Ctrl+8	Toggle Outline symbols
+Ctrl+9	Hide rows
+Ctrl+0	Hide columns
+Ctrl+Shift+(	Unhide rows
+Ctrl+Shift+)	Unhide columns
+Alt or F10	Activate the menu
+Ctrl+Tab	In toolbar: next toolbar
+In a workbook: activate next workbook
+Shift+Ctrl+Tab	In toolbar: previous toolbar
+In a workbook: activate previous workbook
+Tab	Next tool
+Shift+Tab	Previous tool
+Enter	Do the command
+Alt+Enter	Start a new line in the same cell.
+Ctrl+Enter	Fill the selected cell range with the current entry.
+Shift+Ctrl+F	Font Drop Down List
+Shift+Ctrl+F+F	Font tab of Format Cell Dialog box
+Shift+Ctrl+P	Point size Drop Down List
+Ctrl+Spacebar	Select the entire column
+Shift+Spacebar	Select the entire row
+CTRL+/	Select the array containing the active cell.
+CTRL+SHIFT+O	Select all cells that contain comments.
+CTRL+\	In a selected row, select the cells that don’t match the formula or static value in the active cell.
+CTRL+SHIFT+|	In a selected column, select the cells that don’t match the formula or static value in the active cell.
+CTRL+[	Select all cells directly referenced by formulas in the selection.
+CTRL+SHIFT+{	Select all cells directly or indirectly referenced by formulas in the selection.
+CTRL+]	Select cells that contain formulas that directly reference the active cell.
+CTRL+SHIFT+}	Select cells that contain formulas that directly or indirectly reference the active cell.
+ALT+;	Select the visible cells in the current selection.
+SHIFT+BACKSPACE	With multiple cells selected, select only the active cell.
+CTRL+SHIFT+SPACEBAR	Selects the entire worksheet.
+If the worksheet contains data, CTRL+SHIFT+SPACEBAR selects the current region. CTRL+SHIFT+SPACEBAR a second time selects the entire worksheet.
+When an object is selected, CTRL+SHIFT+SPACEBAR selects all objects on a worksheet
+Ctrl+Alt+L	Reapply the filter and sort on the current range so that changes you've made are included
+Ctrl+Alt+V	Displays the Paste Special dialog box. Available only after you have cut or copied an object, text, or cell contents on a worksheet or in another program.
