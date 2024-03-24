@@ -1,0 +1,16 @@
+opencv-python
+psutil
+pyautogui
+pyjokes
+pyttsx3
+pywhatkit
+requests
+screen-brightness-control
+SpeechRecognition
+speedtest-cli
+wikipedia
+wolframalpha
+beautifulsoup4
+covid
+keyboard
+Pillow

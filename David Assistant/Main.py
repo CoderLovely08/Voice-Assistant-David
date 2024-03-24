@@ -30,7 +30,7 @@ from generalResponse import responseDictionary
 # initialising speech engine
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[2].id)
+engine.setProperty('voice', voices[0].id)
 engine.setProperty('rate', 175)
 
 queryLogger = []
@@ -45,19 +45,19 @@ var = StringVar()
 var1 = StringVar()
 
 labelImage = Image.open('images/labelBackground.jpg')
-resizedLabelImage = labelImage.resize((200, 50), Image.ANTIALIAS)
+resizedLabelImage = labelImage.resize((200, 50), Image.LANCZOS)
 updatedLabelImage = ImageTk.PhotoImage(resizedLabelImage)
 
 startButtonImage = Image.open('images/Start.png')
-resizedStartImage = startButtonImage.resize((125, 40), Image.ANTIALIAS)
+resizedStartImage = startButtonImage.resize((125, 40), Image.LANCZOS)
 updatedStartButtonImage = ImageTk.PhotoImage(resizedStartImage)
 
 ExitButtonImage = Image.open('images/Quit.png')
-resizedExitImage = ExitButtonImage.resize((125, 40), Image.ANTIALIAS)
+resizedExitImage = ExitButtonImage.resize((125, 40), Image.LANCZOS)
 updatedExitButtonImage = ImageTk.PhotoImage(resizedExitImage)
 
 backgroundImage = Image.open('images/back1.png')
-resizedBackgroundImage = backgroundImage.resize((630, 395), Image.ANTIALIAS)
+resizedBackgroundImage = backgroundImage.resize((630, 395), Image.LANCZOS)
 updatedBackgroundImage = ImageTk.PhotoImage(resizedBackgroundImage)
 
 fileObj = open("QueryLog.txt", 'a')
@@ -379,7 +379,7 @@ def systemInformation():
 def runAssistant():
     global query, queryLogger
     wish()
-    initialiseSystem()
+    # initialiseSystem()
     while True:
         query = takecommand()
         fileObj = open("QueryLog.txt", 'a')

@@ -22,3 +22,117 @@ RAM memory 74.1 % used:
 The CPU usage is: 0.2 %
 All systems are fully operational.
 Now tell me, what can i do for you?22:33:49
+Good Morning, its 02:10 AM
+Initialising system. Hello, i am David, your Personal Voice Assistant, from now i will be your companion in most of the tasks, and i will assist you as best as i can.
+Your current battery level is at 61 %
+RAM memory 88.2 % used:
+The CPU usage is: 24.6 %
+All systems are fully operational.
+Now tell me, what can i do for you?
+Good Morning, its 02:12 AM
+reduce the volume by 20%[]
+can you please say that again
+reduce the volume by 20%[]
+why you are not taking any actions[]
+can you please say that again
+open Notepad[]
+Opening Notepad
+ok now close Notepad I don't need it anymore[]
+Notepad closed[]
+can you please say that again
+play a song[]
+sir, what song should i play
+I don't know
+your song is being played on youtube
+Sir i am still here in case you need me.[]
+can you please say that again
+Good Evening, its 06:42 PM
+Initialising system. Hello, i am David, your Personal Voice Assistant, from now i will be your companion in most of the tasks, and i will assist you as best as i can.
+Your current battery level is at 93 %
+RAM memory 89.2 % used:
+The CPU usage is: 12.8 %
+All systems are fully operational.
+Now tell me, what can i do for you?
+Good Evening, its 06:43 PM
+Initialising system. Hello, i am David, your Personal Voice Assistant, from now i will be your companion in most of the tasks, and i will assist you as best as i can.
+Good Evening, its 06:46 PM
+Good Evening, its 06:47 PM
+Good Evening, its 06:51 PM
+hello
+Hello, human.
+can you open Notepad[]
+Opening Notepad
+ok can you open terminal for me[]
+Opening Command prompt []
+can you please say that again
+aur kya Kya Karen Apne ismein Jahan[]
+can you please say that again
+what is the current temperature in Hyderabad[]
+current temperature in hyderabad is 33°C
+what is the current temperature in Chandrapur[]
+current temperature in chandrapur is 31°C
+Kabhi Desh To Nahin dega[]
+can you please say that again[]
+can you please say that again
+what is 23 x 6[]
+can you please say that again
+EPF pata nahin chalu Nahin Hai January Nahin Aata[]
+can you please say that again
+what is my current internet speed[]
+Checking for your internet speed, this might take a while
+Your upload speed is 15.6 MBPS 
+Your download speed is 17.36 MBPS []
+can you please say that again
+speed is slow[]
+Checking for your internet speed, this might take a while
+Your upload speed is 15.43 MBPS 
+Your download speed is 23.49 MBPS 
+Your download speed is perfectly fine
+han bataiye can you tell me about my system[]
+this is what i have found on web
+sorry but no data available for your search
+Now you can continue
+tell me some news headlines[]
+Jasmin Paris first woman to complete gruelling Barkley Marathons race
+Kate cancer diagnosis rewrites story of past weeks
+Was my dad a killer? The diary that left writer Saul Wordsworth wondering
+Canada to set first-ever cap on temporary residents
+W.i.S.H.: The Indian girl group aiming to take over the world
+Bullets and panic - the Moscow concert that became a massacre
+Cold water swimming: From the desert to Welsh mountains
+Jordan North: How safe is vaping for my health?
+South Africa's deadly love affair with guns
+Kate, Princess of Wales: I am having cancer treatment
+joke bol raha tha na tu[]
+can you please say that again
+hey David tell me a joke[]
+An SEO expert walks into a bar, bars, pub, public house, Irish pub, tavern, bartender, beer, liquor, wine, alcohol, spirits...
+bahut ganda joke Diya bhai Airtel joke[]
+can you please say that again
+tell me some another joke tell me a joke basically[]
+If you put a million monkeys at a million keyboards, one of them will eventually write a Java program. The rest of them will write Perl.
+kya hai bakwas aur kya[]
+can you please say that again
+Internet se Utha[]
+Checking for your internet speed, this might take a while
+Your upload speed is 9.3 MBPS 
+Your download speed is 19.28 MBPS 
+hay David play some music[]
+sir, what song should i play
+arched
+your song is being played on youtube
+Sir i am still here in case you need me.
+gana bajaiye[]
+can you please say that again
+hi David can you reduce the volume by 20%[][]
+can you please say that again
+reduce the volume by 20%[][]
+can you please say that again
+lower the volume by 20%[]
+Volume level decreased by 20%
+increase the volume level by 100%[]
+Volume level increased by 100%
+Chrome close kar dena[]
+Chrome terminated
+main tere se baat kar raha tha na[]
+can you please say that again[]
