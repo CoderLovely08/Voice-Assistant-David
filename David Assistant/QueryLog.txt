@@ -135,4 +135,65 @@ Volume level increased by 100%
 Chrome close kar dena[]
 Chrome terminated
 main tere se baat kar raha tha na[]
+can you please say that again[]21:41:27
+Good Evening, its 09:55 PM
+Good Evening, its 09:58 PM
+Initialising system. Hello, i am David, your Personal Voice Assistant, from now i will be your companion in most of the tasks, and i will assist you as best as i can.
+Your current battery level is at 77 %
+RAM memory 87.5 % used:
+The CPU usage is: 33.7 %
+All systems are fully operational.
+Now tell me, what can i do for you?
+hello David how are you
+can you please say that again
+hello David how are you can you open Notepad for me I want to write some text[]
+Opening Notepad
+ok fine I change my mind now close note[]
+you can now close notepad[]
+Notepad closed
+OK great hey can you tell me what is the current temperature in Hyderabad right now[]
+current temperature in hyderabad is 30°C
+ok thank you so much just open Chrome I want to hear some music[]
+sir, what song should i play
+play Arcade
+your song is being played on youtube
+Sir i am still here in case you need me.
+decrease the volume by 20%[]
+Volume level decreased by 20%
+by 100% I am not able to see anything[]
+can you please say that again
+close entire Chrome[]
+Chrome terminated
+a nice job tell me a joke David[]
+I suggested holding a 'Python Object Oriented Programming Seminar', but the acronym was unpopular.
+mere ko to aadhe Jo Kisi Samajh Mein Nahin Aate bhai kya bolati hai kya[]
+can you please say that again
+what is the shortcut key for copy[]
+Ctrl+C	Copy
+
+Ctrl+"	Copy Value from Cell Above
+
+Ctrl+â€™	Copy Formula from Cell Above
+
+ i found 3 solutions 
+hey I want to search for an article on Wikipedia can you help me with that[]
+What should i search on wikipedia
+Some error has occurred, try something else[]
 can you please say that again[]
+can you please say that again[]
+can you please say that again[]
+can you please say that again
+Good Evening, its 11:10 PM
+can you tell me what is the capital of India
+The capital of India is New Delhi. It is located in the northern part of the country, on the banks of the Yamuna River. New Delhi was founded in 1911 by the British as the capital of British India. It replaced Calcutta (now Kolkata) as the capital in 1931. New Delhi is a planned city, with wide streets and large parks. It is home to many important government buildings, including the Rashtrapati Bhavan (the presidential palace), the Parliament House, and the Supreme Court. New Delhi is also a major cultural and educational center. It is home to many museums, art galleries, and universities.
+multiply 17 by 88[]
+17 x 88 = 1496.
+what is the chemical formula for oxygen[]
+The chemical formula for oxygen is O2. It is a diatomic molecule, meaning that it is made up of two oxygen atoms. Oxygen is a colorless, odorless, and tasteless gas that is essential for life. It is the most abundant element in the Earth's atmosphere, making up about 21% of the air we breathe. Oxygen is also found in water, soil, and rocks. It is used in many industrial processes, such as the production of steel and chemicals. Oxygen is also used in medicine, such as in the treatment of asthma and other respiratory problems.[]
+can you please say that again[]
+can you please say that again
+can you tell me about Bluetooth low energy[]
+this is what i have found on web
+Bluetooth Low Energy (Bluetooth LE, colloquially BLE, formerly marketed as Bluetooth Smart) is a wireless personal area network technology designed and marketed by the Bluetooth Special Interest Group (Bluetooth SIG) aimed at novel applications in the healthcare, fitness, beacons, security, and home entertainment industries. It is independent of classic Bluetooth and has no compatibility, but Bluetooth Basic Rate/Enhanced Data Rate (BR/EDR) and LE can coexist.
+Now you can continue
+what is Android development[]

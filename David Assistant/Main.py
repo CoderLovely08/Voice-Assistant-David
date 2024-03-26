@@ -375,6 +375,22 @@ def systemInformation():
           f"Machine {my_system.machine}\n"
           f"Processor {my_system.processor}")
 
+# Function to send request to the language model API
+def send_request(text):
+    LANGUAGE_MODEL_API_KEY = 'AIzaSyDTLs2INVs8tWklZ4eRg_Gb-u27-TS9tCw'
+    LANGUAGE_MODEL_URL = f'https://generativelanguage.googleapis.com/v1beta1/models/chat-bison-001:generateMessage?key={LANGUAGE_MODEL_API_KEY}'
+    payload = {
+        'prompt': {'messages': [{'content': text}]},
+        'temperature': 0.1,
+        'candidate_count': 1,
+    }
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    response = requests.post(LANGUAGE_MODEL_URL, json=payload, headers=headers)
+    return response.json()['candidates'][0]['content']
+
+
 # main function in which main logic of code resides
 def runAssistant():
     global query, queryLogger
@@ -845,16 +861,7 @@ def runAssistant():
         else:
             try:
                 question = query
-                app_id = '4E8LLP-TX5UPAUYVP'
-                client = wolframalpha.Client(app_id)
-                res = client.query(question)
-                answer = next(res.results).text
-                answer = answer.splitlines()
-                if len(answer) < 2:
-                    speak(answer[0])
-                if len(answer) > 2:
-                    speak(answer[0])
-                    speak(answer[1])
+                speak(send_request(question))
             except:
                 speak("can you please say that again")
             continue
