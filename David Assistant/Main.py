@@ -4,6 +4,9 @@ import platform
 import webbrowser
 from time import sleep
 from tkinter import *
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 import cv2
 import psutil
@@ -38,8 +41,8 @@ queryIndex = -1
 
 window = Tk()
 window.geometry('800x800')
-window.minsize(630, 395)
-window.maxsize(630, 395)
+window.minsize(1200, 800)
+window.maxsize(1200, 800)
 
 var = StringVar()
 var1 = StringVar()
@@ -57,7 +60,7 @@ resizedExitImage = ExitButtonImage.resize((125, 40), Image.LANCZOS)
 updatedExitButtonImage = ImageTk.PhotoImage(resizedExitImage)
 
 backgroundImage = Image.open('images/back1.png')
-resizedBackgroundImage = backgroundImage.resize((630, 395), Image.LANCZOS)
+resizedBackgroundImage = backgroundImage.resize((1200, 800), Image.LANCZOS)
 updatedBackgroundImage = ImageTk.PhotoImage(resizedBackgroundImage)
 
 fileObj = open("QueryLog.txt", 'a')
@@ -182,6 +185,78 @@ def launchGoogle():
             webbrowser.open("https://www.google.com/search?q=" + searchQuery)
     except:
         speak("Something went wrong while performing search")
+
+def preprocess_email(email):
+    # Reverse the email address and replace the first occurrence of "ta" with "@"
+    processed_email = email[::-1].replace("ta", "@", 1)[::-1].replace(" ", "")
+    
+    return processed_email.lower()
+
+def send_email():
+    try:
+        # Sender's email is already stored
+        sender_email = "davidvoiceassistant7@gmail.com"
+        password = "kvpe bluh srlf xxcb"
+        
+        # Speak and listen for recipient email
+        speak("Who would you like to send the email to?")
+        receiver_email = takecommand().lower()
+        receiver_email = preprocess_email(receiver_email)
+        speak(f"Sending email to {receiver_email}")
+
+        # Confirm recipient email
+        confirm = ""
+        while "yes" not in confirm:
+            speak("Say yes to confirm the recipient email address")
+            confirm = takecommand().lower()
+            if "yes" not in confirm:
+                speak("Please say yes to confirm or provide the email again.")
+                receiver_email = takecommand().lower()
+                receiver_email = preprocess_email(receiver_email)
+                speak(f"Sending email to {receiver_email}")
+
+        # Speak and listen for subject
+        speak("What should be the subject of the email?")
+        subject = takecommand().lower()
+        
+        # Speak and listen for body
+        speak("What message would you like to send?")
+        body = takecommand().lower()
+        
+        # Inform user that email is being sent
+        speak("Sending email in the background. Please wait.")
+        
+        # Create message
+        message = MIMEMultipart()
+        message['From'] = sender_email
+        message['To'] = receiver_email
+        message['Subject'] = subject
+
+        # Email body
+        message.attach(MIMEText(body, 'plain'))
+
+        # SMTP server setup for Gmail
+        smtp_server = "smtp.gmail.com"
+        port = 587  # Gmail SMTP port
+
+        # Start TLS connection
+        context = smtplib.SMTP(smtp_server, port)
+        context.starttls()
+
+        # Login to Gmail
+        context.login(sender_email, password)
+
+        # Send email
+        text = message.as_string()
+        context.sendmail(sender_email, receiver_email, text)
+
+        # Close connection
+        context.quit()
+        
+        speak("Email sent successfully!")
+    except Exception as e:
+        print(e)
+        speak("Something went wrong while sending the email")
 
 # this function returns currently active cases in india
 def covidCases():
@@ -400,6 +475,7 @@ def runAssistant():
         query = takecommand()
         fileObj = open("QueryLog.txt", 'a')
         fileObj.write(str(queryLogger))
+        
         if "notepad" in query or 'editor' in query:
             if "open" in query:
                 speak("Opening Notepad")
@@ -432,7 +508,6 @@ def runAssistant():
             continue
 
         # play music
-
         elif "music" in query or "song" in query:
             speak("sir, what song should i play")
             searchQuery = takecommand().lower()
@@ -605,6 +680,11 @@ def runAssistant():
                 speak("Sir, i am still here in case you need me.")
             continue
 
+        # Email sending
+        if 'email' in query:
+            send_email()
+            continue
+        
         # texting on whatsapp
         elif 'message' in query or 'text' in query:
             #if 'whatsapp' in query:
@@ -871,9 +951,7 @@ def exitAssistant():
     sys.exit()
 
 # Call main function
-#this is the main part where execution starts
 if __name__ == "__main__":
-
     bglabel = Label(window, image=updatedBackgroundImage)
     bglabel.place(x=0, y=0)
 
@@ -885,13 +963,18 @@ if __name__ == "__main__":
     var.set('Welcome')
     label1.place(x=75, y=150)
 
-    btn1 = Button(text='Start', bg='#000', command=runAssistant, image=updatedStartButtonImage)
-    btn1.config(font=("Courier", 12))
-    btn1.place(x=75, y=275)
+    # btn1 = Button(text='Start', bg='#000', command=runAssistant, image=updatedStartButtonImage)
+    # btn1.config(font=("Courier", 12))
+    # btn1.place(x=75, y=275)
 
-    btn2 = Button(text='EXIT', bg='#000', command=exitAssistant, image=updatedExitButtonImage)
-    btn2.config(font=("Courier", 12))
-    btn2.place(x=425, y=275)
+    # btn2 = Button(text='EXIT', bg='#000', command=exitAssistant, image=updatedExitButtonImage)
+    # btn2.config(font=("Courier", 12))
+    # btn2.place(x=425, y=275)
 
     window.title('David')
+
+    # Call runAssistant method directly here
+    runAssistant()
+
     window.mainloop()
+

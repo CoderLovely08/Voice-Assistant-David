@@ -197,3 +197,152 @@ this is what i have found on web
 Bluetooth Low Energy (Bluetooth LE, colloquially BLE, formerly marketed as Bluetooth Smart) is a wireless personal area network technology designed and marketed by the Bluetooth Special Interest Group (Bluetooth SIG) aimed at novel applications in the healthcare, fitness, beacons, security, and home entertainment industries. It is independent of classic Bluetooth and has no compatibility, but Bluetooth Basic Rate/Enhanced Data Rate (BR/EDR) and LE can coexist.
 Now you can continue
 what is Android development[]
+Good Evening, its 07:19 PM19:34:4719:35:17
+Good Evening, its 07:38 PM
+Initialising system. Hello, i am David, your Personal Voice Assistant, from now i will be your companion in most of the tasks, and i will assist you as best as i can.
+Your current battery level is at 63 %
+RAM memory 53.9 % used:
+The CPU usage is: 19.8 %
+All systems are fully operational.
+Now tell me, what can i do for you?
+ok bye David you can take some rest
+Okay Sir, you can call me anytime. Now let me have some rest.[]
+Good Evening, its 09:03 PM
+send an email
+Who would you like to send the email to?
+lovely Sharma as 0812 at the rate gmail.com
+What should be the subject of the email?
+hello
+What message would you like to send?
+this is a test email
+Sending email in the background. Please wait.
+Something went wrong while sending the email[]
+can you please say that again[]21:03:29
+Good Evening, its 09:05 PM
+absent an email
+Who would you like to send the email to?
+Something went wrong while sending the email
+email[]
+Who would you like to send the email to?
+lovely Sharma as 0812 at Gmail.com
+What should be the subject of the email?
+tell morning Chennai
+What message would you like to send?
+Sending email in the background. Please wait.
+Something went wrong while sending the email
+137 se Lucknow[]
+137 se lucknow is a Hindi phrase that means "from Lucknow". It is a common way to say that someone is from Lucknow, the capital of the Indian state of Uttar Pradesh. The phrase can also be used to refer to things that are associated with Lucknow, such as its food, culture, or people.
+
+Lucknow is a city with a rich history and culture. It was founded in the 16th century by the Mughal emperor Akbar, and it served as the capital of the Mughal Empire for a time. Lucknow is also known for its beautiful architecture, including the Bara Imambara and the Rumi Darwaza.
+
+The people of Lucknow are known for their hospitality and their love of food. The city is home to a number of famous dishes, such as the kebab and the biryani. Lucknow is also known for its music and dance, and it is home to a number of famous musicians and dancers.
+
+If you are ever in India, be sure to visit Lucknow. It is a city with something to offer everyone.[]
+Good Evening, its 09:08 PM
+can you please say that again[]21:08:07
+Good Evening, its 09:08 PM
+can you please say that again[]21:08:37
+Good Evening, its 09:14 PM
+send an email
+Who would you like to send the email to?
+lovely Sharma as 0812 at the rate gmail.com
+What should be the subject of the email?
+What message would you like to send?
+Something went wrong while sending the email[]21:14:48
+Good Evening, its 09:15 PM
+send an email
+Who would you like to send the email to?
+lovely Sharma as 08128 gmail.com
+What should be the subject of the email?
+Something went wrong while sending the email[]21:15:35
+Good Evening, its 09:16 PM
+send an email
+Who would you like to send the email to?
+lovely at o n i v a r t.com
+What should be the subject of the email?
+this is a test email
+What message would you like to send?
+this is the test email
+Sending email in the background. Please wait.
+Email sent successfully!
+ok bye-bye[]
+Okay Sir, you can call me anytime. Now let me have some rest.[]21:16:28
+Good Morning, its 09:50 AM
+yeah I want to send an email to one of my friend
+Who would you like to send the email to?
+Omprakash khandale 05@gmail.com
+What should be the subject of the email?
+this is a test image
+What message would you like to send?
+David the side I am sending you this email to check up on you
+Sending email in the background. Please wait.
+Email sent successfully!
+I want to send an email[]
+Who would you like to send the email to?
+Omprakash khandale 5@gmail.com
+What should be the subject of the email?
+latest email
+What message would you like to send?
+this is a test email
+Sending email in the background. Please wait.
+Email sent successfully!
+ok bye you can take some rest now[]
+Okay Sir, you can call me anytime. Now let me have some rest.[]09:50:07
+Good Evening, its 07:41 PM
+I want to send an email
+Who would you like to send the email to?
+lovely Sharma as 08128 gmail.com
+What should be the subject of the email?
+What message would you like to send?[]19:41:40
+Good Evening, its 07:43 PM
+I want to send an email
+Who would you like to send the email to?
+lovely Sharma as 08128 the rate gmail.com
+What should be the subject of the email?
+What message would you like to send?[]19:43:14
+Good Evening, its 07:44 PM
+I want to send an email
+Who would you like to send the email to?
+lovely at Gmail.com
+What should be the subject of the email?[]19:44:09
+Good Evening, its 07:44 PM
+send an email
+Who would you like to send the email to?
+Alice the rising star at the rate gmail.com
+What should be the subject of the email?[]19:44:41
+Good Evening, its 07:48 PM
+send an email
+Who would you like to send the email to?
+LS the rising star at Gmail.com
+What should be the subject of the email?
+desert HTML HTML test email test email
+What message would you like to send?
+so hey dear I hope you are doing absolutely well this is the test email and I am sending from debit
+Sending email in the background. Please wait.
+Email sent successfully!
+Good Evening, its 07:53 PM
+send an email
+Who would you like to send the email to?
+lovely Sharma as 08128 gmail.com
+Sending email to lovelysharmaas08128gmail.com
+Say yes to confirm the recipient email address
+no correct the email again
+Please say yes to confirm or provide the email again.
+lovely Sharma as 0812 at Gmail.com
+Sending email to lovelysharmaas0812@gmail.com
+Say yes to confirm the recipient email address
+yes it's correct
+What should be the subject of the email?
+this is the test image
+What message would you like to send?
+hello lovely I am sending you this email on behalf of David
+Sending email in the background. Please wait.
+Email sent successfully![]
+can you please say that again[]
+can you please say that again
+give me a short brief about Bluetooth low energy[]
+Good Evening, its 07:57 PM19:57:45
+Good Evening, its 07:58 PM
+can you please say that again[]19:58:21
+Good Evening, its 07:58 PM
+Good Evening, its 07:59 PM19:59:18
