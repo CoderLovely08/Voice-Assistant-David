@@ -214,6 +214,9 @@ def send_email():
                 receiver_email = takecommand().lower()
                 receiver_email = preprocess_email(receiver_email)
                 speak(f"Sending email to {receiver_email}")
+            if "cancel" in confirm:
+                speak("Email sending cancelled")
+                return
 
         # Speak and listen for subject
         speak("What should be the subject of the email?")
